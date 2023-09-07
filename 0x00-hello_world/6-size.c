@@ -5,7 +5,7 @@
  *
  * Description: A programe calcule the sizes of types
  *
- * REturn: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
