@@ -10,12 +10,14 @@
 
 int main(void)
 {
-	char str[] = "abcdefghijklmnopqrstuvwxyz";
+	char ch = 'a';
 
-	for (int i = 0; str[i] != '\0'; i++)
+	while (ch <= 'z')
 	{
-		putchar(str[i]);
-		putchar('\n');
+		putchar(ch);
+		ch++;
 	}
+	putchar('\n');
+
 	return (0);
 }
