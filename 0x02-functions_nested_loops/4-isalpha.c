@@ -8,7 +8,7 @@
  * Return: return 1 if c lower case else return 0
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
 	{
