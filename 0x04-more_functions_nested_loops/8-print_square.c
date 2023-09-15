@@ -20,8 +20,8 @@ void print_square(int size)
 			for (column = 1 ; column <= zise ; column++)
 			{
 				_putchar(35);
-			_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
