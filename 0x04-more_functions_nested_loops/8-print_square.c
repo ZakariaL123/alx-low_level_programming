@@ -15,14 +15,13 @@ void print_square(int size)
 	}
 	else
 	{
-		for (line = 1 ; line <= n ; line++)
+		for (line = 1 ; line <= size ; line++)
 		{
-			for (num = 1 ; num <= n ; num++)
+			for (num = 1 ; num <= zise ; num++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
