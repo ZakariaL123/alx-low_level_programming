@@ -9,13 +9,14 @@
 void puts_half(char *str)
 {
 	int length = 0;
+	int start = (lenght -1) / 2;
+
 
 	while (str[length] != '\0')
 	{
 		length++;
 	}
 
-	int start = (length -1) / 2;
 
 	while (str[start] != '\0')
 	{
