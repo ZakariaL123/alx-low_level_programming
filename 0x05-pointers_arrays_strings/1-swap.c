@@ -3,9 +3,9 @@
 /**
  * swap_int - function to swap numbers
  *
- * @*a: first value
+ * @a: first value
  *
- * @*b: second value
+ * @b: second value
 */
 
 void swap_int(int *a, int *b)
