@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - function to lower case checker
+ * print_rev - function to lower case checker
  *
- * @n: checks input of function
- *
- * Return: return 1 if c lower case else return 0
+ * @s: checks input of function
 */
 
 void print_rev(char *s)
