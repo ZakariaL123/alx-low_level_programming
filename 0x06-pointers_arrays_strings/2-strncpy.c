@@ -23,6 +23,12 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
+	while (j < n)
+	{
+		dest[i] = '\0';
+		i++;
+		j++;
+	}
 
 	return (dest);
 }
