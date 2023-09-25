@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * _memset - the function
+ * _strpbrk - the function
  *
  * @s: first value
  *
- * @b: second value
- *
- * @n: third value
+ * @accept: second value
  *
  * Return: return char
 */
