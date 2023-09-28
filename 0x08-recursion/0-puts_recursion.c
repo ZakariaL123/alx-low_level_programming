@@ -1,6 +1,10 @@
 #include "main.h"
 
-/***/
+/**
+ * _puts_recursion - print string
+ *
+ * @s: first value
+*/
 
 void _puts_recursion(char *s)
 {
