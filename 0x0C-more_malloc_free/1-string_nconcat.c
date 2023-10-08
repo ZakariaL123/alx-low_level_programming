@@ -6,6 +6,7 @@
  * @s1: pointer to first string
  * @s2: pointer to 2nd string
  * @n: Number of bytes
+ *
  * Return: pointer
 */
 
