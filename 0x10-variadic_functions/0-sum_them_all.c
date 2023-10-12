@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include "variadic_functions.h"
 
 /**
- * sum_them_all - function for some
- * @n: conter
- * Return: return int
+ * sum_them_all - calculates the sum of a variable number of integers
+ * @n: number of arguments
+ * @...: variable number of arguments
+ * Return: sum of the integers
 */
 
 int sum_them_all(const unsigned int n, ...)
