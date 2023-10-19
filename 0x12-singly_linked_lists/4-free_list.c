@@ -1,6 +1,7 @@
 #include "lists.h"
 
-/**free_list - frees all nodes of a list
+/**
+ * free_list - frees all nodes of a list
  * @head: pointer to head node
  *
  * Return: void
@@ -9,7 +10,7 @@ void free_list(list_t *head)
 {
 	list_t *node, *next_node;
 
-	if(!head)
+	if (!head)
 		return;
 
 	node = head;
